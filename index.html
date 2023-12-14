@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portfolio Website Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #444;
+        }
+
+        nav ul li {
+            flex: 1;
+            text-align: center;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .col-4 {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .col-6 {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px linear-gradient(#7c40ff,#d8c7ff);
+        }
+
+        .resumeDownload a {
+            color: #fff;
+            text-decoration: none;
+            background-color: #333;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        
+        .resumeDownload a:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position:fixed;
+            bottom: 0;
+            left: 0;
+            right: 0 ;
+          
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="index">
+
+    <div class="content">
+        <header>
+            <h1>College Portfolio Website Project</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page1.html">Resume</a></li> 
+                <li><a href="page2.html">This Semester</a></li> 
+                
+                <li><a href="hackathon.html">Exercise</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>“Web development is the art of turning ideas into digital experiences that shape the world.”</h2>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h3>What is Web Development?</h3>
+                            <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet.</p>
+                        </div>
+                        <div class="col-4">
+                            <h3>Frontend Technologies</h3>
+                            <p><b>HTML:</b> HTML stands for HyperText Markup Language. It is used to design the front end portion of web pages using markup language. It acts as a skeleton for a website since it is used to make the structure of a website.
+                                <br><b>CSS:</b> CSS stands for Cascading Style Sheets referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. It is used to style our website.
+                                <br><b>JavaScript:</b> JavaScript is a scripting language used to provide a dynamic behavior to our website.</p>
+                        </div>
+                        <div class="col-4">
+                            <h3>Sustainable Web Development</h3>
+                            <p>Sustainable web development involves minimizing environmental impact, conserving energy, efficiently using resources, and enhancing performance and user experience through principles and standards.</p> <br> Some examples of how we can accomplish this is by looking and monitor the following: Performance, Cost Savings, and Social Responsibility.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 resumeDownload">
+                            <h2><a href="https://ca.linkedin.com/">Download Resume</a></h2>
+                        </div> 
+                        <div class="col-6 resumeDownload">
+                            <h2><a href="resume.pdf" download>Download Cover Letter</a></h2>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <footer>
+              <p>&copy; 2023 Jessa Lohnes. All rights reserved.</p>
+          </footer>
+          
+</footer>
+    
+    </div>  
+</body>
+</html>
+
+</html>
